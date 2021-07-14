@@ -16,8 +16,8 @@ main{
 /* ----------------
 Header-section style
  ------------------*/
- .heading-container{
-     background-color: #2D25A0;
+ header>.container{
+     background-color: #240ab6;
      margin-top: 0px;
  }
  .heading-content{
@@ -103,4 +103,38 @@ Article Section Style
 .player-info{
     font-size: 16px;
 }
+/* -----------------
+footer style section
+--------------------*/
+.footer-container{
+    width: 900px;
+    height: 400px;
+    margin-top: 136px;
+    margin-left: 900px;
+    margin-bottom: 85px;
+}
+.social-media-icon{
+    padding-left: 200px;
+}
+.copyright-part{
+    padding-left: 200px;
+    font-size: 30px;
+}
+/* ---------------------
+       Media Querry
+------------------------*/
+@media only screen and (max-width:668px){
+        .container{
+            width: 100%;
+        }
+        .heading-content, .great-players, .footer-container {
+            grid-template-columns: repeat(1, 1fr);
+            align-items: center;
+            
+            
+        }
+        .heading-info, .heading-banner, .player{
+            flex-direction: column;
+        }
 
+}
