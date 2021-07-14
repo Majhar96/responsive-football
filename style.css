@@ -124,7 +124,7 @@ footer style section
        Media Querry
 ------------------------*/
 @media only screen and (max-width:668px){
-        .container{
+        .container {
             width: 100%;
         }
         .heading-content, .great-players, .footer-container {
@@ -133,8 +133,22 @@ footer style section
             
             
         }
-        .heading-info, .heading-banner, .player{
+        .heading-info, .heading-banner, .player {
             flex-direction: column;
         }
 
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .heading-content, .great-players, .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        
+        
+    }
+    .heading-info, .heading-banner, .player {
+        flex-direction: column;
+    }
 }
