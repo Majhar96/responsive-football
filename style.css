@@ -122,7 +122,7 @@ td, th {
    video section 
    ------------------*/
    .video-section{
-       margin-top:100p;
+       margin-top:100px;
        margin-left: 30px;
    }
   
@@ -133,7 +133,7 @@ footer style section
     width: 900px;
     height: 400px;
     margin-top: 136px;
-    margin-left: 900px;
+    margin-left: 1100px;
     margin-bottom: 85px;
 }
 .social-media-icon{
